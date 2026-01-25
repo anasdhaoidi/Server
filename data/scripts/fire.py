@@ -8,7 +8,7 @@ whitelist = False
 #
 spamProtection = True
 #
-flashFloat = False
+flashFloat = True
 #
 muteAll = False
 #
