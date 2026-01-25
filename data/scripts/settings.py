@@ -4,7 +4,7 @@ date = datetime.now().strftime('%d')
 
 enableTop5effects = True
 enableTop5commands = False
-enableCoinSystem = False
+enableCoinSystem = True
 
 enableStats = True
 
@@ -30,7 +30,7 @@ enableChatFilter = True
 
 showTextsInBottom = False
 
-gameTexts = ['Welcome To Blitz Server','Use "/shop commands" to see commands available to buy.','Use "/shop effects" to see effects available and their price.','Use "/me" or "/stats" to see your '+bs.getSpecialChar('ticket')+' and your stats in this server', 'Use "/buy" to buy effects that you like','Use "/donate" to give some of your tickets to other players','Use "/scoretocash" to convert some of your score to '+bs.getSpecialChar('ticket')+'\nCurrent Rate: 5scores = '+bs.getSpecialChar('ticket')+'1']
+gameTexts = ['Welcome To ATD Server','Use "/shop commands" to see commands available to buy.','Use "/shop effects" to see effects available and their price.','Use "/me" or "/stats" to see your '+bs.getSpecialChar('ticket')+' and your stats in this server', 'Use "/buy" to buy effects that you like','Use "/donate" to give some of your tickets to other players','Use "/scoretocash" to convert some of your score to '+bs.getSpecialChar('ticket')+'\nCurrent Rate: 5scores = '+bs.getSpecialChar('ticket')+'1']
 
 questionDelay = 90 #60 #seconds
 questionsList = {'Which virus is spreading currently?': 'corona', 'Which country Corona is originated?': 'china', 'Effiel Tower is located in which city?': 'paris', 'Largest Planet in our solar system?': 'jupiter',
@@ -94,3 +94,4 @@ def return_yielded_game_texts():
 def return_players_yielded(bs):
     for player in bs.getSession().players:
         yield player
+
