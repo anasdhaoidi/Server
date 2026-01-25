@@ -589,7 +589,7 @@ class RoundaboutMap(Map):
         data['bgVRFillModel'] = bs.getModel('natureBackgroundVRFill')
         data['collideModel'] = bs.getCollideModel('roundaboutLevelCollide')
         data['tex'] = bs.getTexture('roundaboutLevelColor')
-        data['modelBGTex'] = bs.getTexture('eggTex1')
+        data['modelBGTex'] = bs.getTexture('bombColorIce')
         data['collideBG'] = bs.getCollideModel('natureBackgroundCollide')
         data['railingCollideModel'] = bs.getCollideModel('roundaboutLevelBumper')
         data['bgMaterial'] = bs.Material()
@@ -654,7 +654,7 @@ class MonkeyFaceMap(Map):
         data['bgVRFillModel'] = bs.getModel('natureBackgroundVRFill')
         data['collideModel'] = bs.getCollideModel('monkeyFaceLevelCollide')
         data['tex'] = bs.getTexture('monkeyFaceLevelColor')
-        data['modelBGTex'] = bs.getTexture('eggTex1')
+        data['modelBGTex'] = bs.getTexture('bombColorIce')
         data['collideBG'] = bs.getCollideModel('natureBackgroundCollide')
         data['railingCollideModel'] = bs.getCollideModel('monkeyFaceLevelBumper')
         data['bgMaterial'] = bs.Material()
@@ -804,7 +804,7 @@ class ThePadMap(Map):
                               attrs={'model':self.preloadData['bgModel'],
                                      'lighting':False,
                                      'background':True,
-                                     'colorTexture':self.preloadData['bgTex']})
+                                     'colorTexture':self.preloadData['black']})
         self.railing = bs.newNode('terrain',
                                   attrs={'collideModel':self.preloadData['railingCollideModel'],
                                          'materials':[bs.getSharedObject('railingMaterial')],
@@ -996,7 +996,7 @@ class TipTopMap(Map):
         data['bottomModel'] = bs.getModel('tipTopLevelBottom')
         data['collideModel'] = bs.getCollideModel('tipTopLevelCollide')
         data['tex'] = bs.getTexture('tipTopLevelColor')
-        data['bgTex'] = bs.getTexture('eggTex1')
+        data['bgTex'] = bs.getTexture('bombColorIce')
         data['bgModel'] = bs.getModel('tipTopBG')
         data['railingCollideModel'] = bs.getCollideModel('tipTopLevelBumper')
         return data
@@ -1274,7 +1274,7 @@ class StepRightUpMap(Map):
         data['modelBottom'] = bs.getModel('stepRightUpLevelBottom')
         data['collideModel'] = bs.getCollideModel('stepRightUpLevelCollide')
         data['tex'] = bs.getTexture('stepRightUpLevelColor')
-        data['bgTex'] = bs.getTexture('eggTex1')
+        data['bgTex'] = bs.getTexture('bombColorIce')
         data['bgModel'] = bs.getModel('thePadBG') # fixme should chop this into vr/non-vr chunks
         data['vrFillMoundModel'] = bs.getModel('stepRightUpVRFillMound')
         data['vrFillMoundTex'] = bs.getTexture('vrFillMound')
@@ -1417,7 +1417,7 @@ class RampageMap(Map):
         data['collideModel'] = bs.getCollideModel('rampageLevelCollide')
         data['tex'] = bs.getTexture('rampageLevelColor')
         data['bgTex'] = bs.getTexture('eggTex1')
-        data['bgTex2'] = bs.getTexture('rampageBGColor2')
+        data['bgTex2'] = bs.getTexture('bombColorIce')
         data['bgModel'] = bs.getModel('rampageBG')
         data['bgModel2'] = bs.getModel('rampageBG2')
         data['vrFillModel'] = bs.getModel('rampageVRFill')
