@@ -366,9 +366,9 @@ class Spaz(bs.Actor):
     """
     pointsMult = 1
     curseTime = 5000
-    defaultBombCount = 1
+    defaultBombCount = 2
     defaultBombType = 'normal'
-    defaultBoxingGloves = False
+    defaultBoxingGloves = True
     defaultShields = False
 
     def __init__(self, color=(1, 1, 1), highlight=(0.5, 0.5, 0.5),
