@@ -7,8 +7,8 @@ import copy
 import bsTutorial
 import bsInternal
 
-gDefaultTeamColors = ((0.1, 0.25, 1.0), (1.0, 0.25, 0.2))
-gDefaultTeamNames = (u'Fire',u'Green\ue00c')
+gDefaultTeamColors = ((1.5, 0.00, 0.00), (1.5, 1.5, 1.5))
+gDefaultTeamNames = (u'PROS🥊',u'LEGENDS🫡')
 
 gTeamSeriesLength = 7
 gFFASeriesLength = 24
@@ -1453,3 +1453,4 @@ class TeamsSession(TeamBaseSession):
     def __init__(self):
         bsInternal._incrementAnalyticsCount('Teams session start')
         TeamBaseSession.__init__(self)
+
