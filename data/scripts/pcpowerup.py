@@ -114,7 +114,7 @@ class PowerupFactory(object):
         self.texSloMo = bs.getTexture("achievementFlawlessVictory")
         self.textnt = bs.getTexture("achievementTNT")
         self.texStrongICE = bs.getTexture("menuButton")
-        self.texSpeedBoots = bs.getTexture("achievementGotTheMoves")
+        self.texSpeedBoots = bs.getTexture("powerupSpeed")
         self.texChamp = bs.getTexture("achievementBoxer")
         self.texTroll = bs.getTexture("achievementOffYouGo")
         self.texCharacter = bs.getTexture("crossOut")
