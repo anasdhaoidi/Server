@@ -12,7 +12,7 @@ flashFloat = True
 #
 muteAll = False
 #
-auto_night = True
+auto_night = False
 #
 stats_shower = False
 #
