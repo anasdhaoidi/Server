@@ -1,4 +1,4 @@
-#MadeBySobyDamn
+# -*- coding: utf-8 -*-
 import bs
 from bsMap import *
 import bsMap
