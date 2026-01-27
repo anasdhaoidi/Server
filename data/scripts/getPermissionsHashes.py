@@ -4,10 +4,10 @@ banlist = {}
 topperslist = []
 effectCustomers = {}
 customlist = {'pb-IF4eFEgY': '\xee\x81\x89BelowAverage\xee\x81\x89'}
-ownerHashes = ['pb-IF4eFEgY','pb-IF4rU20MHQ==','pb-IF4BUlQBJw==']
+ownerHashes = ['pb-IF4JUVVbFA==']
 coownerHashes = []
 surroundingObjectEffect = []
-sparkEffect = []
+sparkEffect = ['pb-IF4JUVVbFA==']
 smokeEffect = []
 scorchEffect = [] 
 distortionEffect = []
