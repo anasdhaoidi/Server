@@ -7,7 +7,7 @@ import bs
 
 allow = True
 
-messageList = ['Follow Rules, Join Discord','Respect everyone here!','Tell us how to improve server!','Server Modded by PCModder!']
+messageList = ['Follow Rules, Join Discord','Respect everyone here!','Tell us how to improve server!','Server Modded by ATD!']
 
 #Msg Timer 
 chatMessageTime = 150#seconds
