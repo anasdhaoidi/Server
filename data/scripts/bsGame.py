@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import bs
 import bsInternal
 from bsVector import Vector
