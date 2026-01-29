@@ -8,7 +8,7 @@ enableTop5commands = False
 enableCoinSystem = True
 ownerPerk = False
 muteAll = False
-enableVerification = False
+enableVerification = True
 
 enableStats = True
 
@@ -32,7 +32,7 @@ nightMode = True
 
 enableChatFilter = True
 
-showTextsInBottom = False
+showTextsInBottom = True
 
 coinTexts = ['Welcome to ATD Official','Use "/shop commands" to see commands available to buy.','Use "/shop effects" to see effects available and their price.','Use "/me" or "/stats" to see your '+bs.getSpecialChar('ticket')+' and your stats in this server', 'Server modded by PCMODDER and Vortex']
 
@@ -81,7 +81,7 @@ availableEffects = {'ice': 50,
 
 nameOnPowerUps = True  # Whether or not to show the powerup's name on top of powerups
 
-shieldOnPowerUps = True  # Whether or not to add shield on powerups
+shieldOnPowerUps = False  # Whether or not to add shield on powerups
 
 discoLightsOnPowerUps = True  # Whether or not to show disco lights on powerup's location
 
@@ -89,7 +89,7 @@ FlyMaps = False  # Whether or not to enable the 3D flying maps in games playlist
 
 floater = False
 
-auto_night = True
+auto_night = False
 
 def return_yielded_game_texts():
     for text in gameTexts:
